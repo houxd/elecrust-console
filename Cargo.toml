@@ -1,0 +1,23 @@
+[package]
+name = "elecrust-console"
+version = "0.0.1"
+edition = "2021"
+description = "A Console use for Elecrust."
+license = "MIT"
+repository = "https://github.com/houxd/elecrust_console"
+homepage = "https://github.com/houxd/elecrust_console"
+documentation = "https://docs.rs/elecrust_console"
+keywords = ["embedded", "mcu", "no-std", "async", "console"]
+categories = ["no-std"]
+authors = ["houxd.g@gmail.com"]
+exclude = []
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+elecrust = "0.0.1"
+async-trait = "0.1"
+
+[lints.rust]
+unused_must_use = "warn"
